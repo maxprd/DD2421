@@ -94,13 +94,13 @@ Rounding to 5 decimals.
 
 > For splitting we choose the attribute that maximizes the information gain, Eq.3. Looking at Eq.3 how does the entropy of the subsets, Sk, look like when the information gain is maximized? How can we motivate using the information gain as a heuristic for picking an attribute for splitting? Think about reduction in entropy after the split and what the entropy implies.
 
-![lab1_eq3](/Users/jonathanrintala/Desktop/ML/notes/lab1_eq3.png)
+![eq3](src/eq3.png)
 
 If we pick the attribute with the largest information gain, that means the uncertainty - the entropy, will be reduced the most by this attribute. This also means the attribute is more important than others in the decision making. 
 
 When the information gain $Gain(S,A)$ is maximized, that means more information is acquired and thus the entropy of subset $S_k$ is decreasing.
 
-If we use the information gain as a heuristic we want to maximize when making a split, that will ensure selecting an attribute to split on, which reduces the uncertainty (entropy) of the subsets $S_k​$ the most. Followingly, this reduces the number of splits and subsets - i.e. results in the smallest tree with the most pure subsets, which increases the performance of the decision tree algorithm. An attribute with a high information gain, implies a branch which is more homogenous and predictable.
+If we use the information gain as a heuristic we want to maximize when making a split, that will ensure selecting an attribute to split on, which reduces the uncertainty (entropy) of the subsets $S_k$ the most. Followingly, this reduces the number of splits and subsets - i.e. results in the smallest tree with the most pure subsets, which increases the performance of the decision tree algorithm. An attribute with a high information gain, implies a branch which is more homogenous and predictable.
 
 
 
