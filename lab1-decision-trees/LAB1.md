@@ -6,7 +6,7 @@ Answers for Laboration 1 in DD2421 Machine Learning at KTH.
 
 ## 2. MONK Datasets
 
-####Assignment 0:
+#### Assignment 0:
 
 > Each one of the datasets has properties which makes them hard to learn. Motivate which of the three problems is most difficult for a decision tree algorithm to learn.
 
@@ -108,7 +108,7 @@ If we use the information gain as a heuristic we want to maximize when making a 
 
 
 
-####Assignment 5:
+#### Assignment 5:
 
 > Build the full decision trees for all three Monk datasets using buildTree. Then, use the function check to measure the performance of the decision tree on both the training and test datasets. 
 >
