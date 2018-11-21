@@ -1,8 +1,10 @@
 # LAB.1 - Decision Trees
 
+**Authors:** Jonathan Rintala, Erik Skogetun
+
 Answers for Laboration 1 in DD2421 Machine Learning at KTH.
 
-
+------
 
 ## 2. MONK Datasets
 
@@ -50,15 +52,12 @@ Rounding to 4 significant figures.
   - Fair six sided die: $ent = -log(1/6) \approx 2.58 bits $
   - Fair coin: $ent = -[1/2*log(1/2) + 1/2*log(1/2)] = 1bit $
 
-  
-
 - **Non-uniform distribution:**
 
   The entropy for a non-uniform distribution will be lower than for the uniform one. This is because a non-uniform distribution is easier to predict and thus have a lower amount of uncertainty. For example:
 
   - Biased coin: $ent = -[3/4*log(3/4) + 1/4*log(1/4)] = 0.81bit < 1bit$
 
-  
 
 ## 4. Information Gain
 
